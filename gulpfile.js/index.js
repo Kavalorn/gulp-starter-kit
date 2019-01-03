@@ -3,9 +3,6 @@ const { sass, clean, js, images, pug, watch, fonts, prod_zip } = require('./task
 
 
 
-
-
-
 task("sass", sass);
 task('clean', clean);
 task("js", js);
