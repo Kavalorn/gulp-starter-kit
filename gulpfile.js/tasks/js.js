@@ -1,4 +1,4 @@
-const { dest, src } = require('gulp');
+const { dest } = require('gulp');
 const gulpif = require('gulp-if');
 const babelify = require('babelify');
 const sourcemaps = require('gulp-sourcemaps');

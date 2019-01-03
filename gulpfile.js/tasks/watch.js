@@ -2,7 +2,6 @@ const { watch, series } = require('gulp');
 const js = require('./js');
 const pug = require('./pug');
 const sass = require('./sass');
-const notify = require('gulp-notify');
 const browserSync = require('browser-sync').create();
 const { destination, js_watch, css_watch, css_dest, pug_watch, js_dest, pug_dest } = require('./task-config');
 
